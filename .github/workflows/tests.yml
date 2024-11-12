@@ -15,8 +15,7 @@ jobs:
           make
           make test
 
-
-            Test_Add:
+  Test_Add:
     runs-on: ubuntu-latest
     needs: Compilation
     steps:
